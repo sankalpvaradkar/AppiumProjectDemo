@@ -52,7 +52,7 @@ public class AndroidCalculatorTest {
 
 	 @Test
 	 public void Sum() {
-	  // Click on DELETE/CLR button to clear result text box before running test.
+	  //  Click on DELETE/CLR button to clear result text box before running test.
 	  driver.findElements(By.xpath("//android.widget.Button")).get(0).click();
 
 	  // Click on number 2 button.
